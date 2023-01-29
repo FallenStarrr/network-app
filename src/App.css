@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  outline: none;
+}
+
+select {
+  background-color: #f2f4f6;
+  width: 120px;
+  height: 30px;
+  margin-top: 15px;
+  border: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*Questions*/
+
+.search-box {
+  margin-top: 15px;
+}
+.search-item {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  background-color: #f2f4f6;
+  min-height: 100px;
+}
+
+.search-headings {
+  display: flex;
+  justify-content: space-around;
+ 
+}
+.search-para {
+  width: 100%
+}
+.search::placeholder {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.search {
+  width: 50%;
+  height: 70px;
+  margin-left: 120px;
+  margin-top: 13px;
+  margin: 0 auto;
+  margin-top: 15px;
+  border-radius: 35px;
+  border: 2px sienna dashed;
+
+}
+/*Questions*/
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.item {
+  background-color: aliceblue;
+  width: 400px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}

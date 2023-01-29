@@ -1,0 +1,281 @@
+body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  #top-menu {
+    position:relative;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 1px;
+    padding-top: 15px;
+  }
+
+  #login-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    background-color: rgb(28, 28, 247);
+  }
+    
+  .btn {
+    margin-top: 10px;
+    margin-right: 30px;
+    height: 35px;
+    width: 70px;
+    padding: 6px;
+    border: none;
+    background-color: rgb(96, 140, 222);
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .img-contain {
+    text-align: center;
+    color: white;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  
+  #logo {
+   
+    height: 50px;
+  }
+  
+  
+  nav {
+    margin-left: 100px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+  }
+  
+  nav ul li {
+    margin-left: 10px;
+  }
+  nav ul li a {
+    color: grey;
+    text-decoration: none;
+  }
+  img {
+    max-width: 100%;
+  }
+  
+  #large-img {
+    width: 100%;
+  height: 500px;
+  object-fit: cover;
+  }
+
+  #header-text {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 2px 2px black;
+  }
+  
+  #login-btn:active + #login-popup, #login-btn:focus + #login-popup {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 0;
+  }
+  #login-form {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  #search-container {
+    top:350px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    width: 50%;
+    height: 40px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  #search-field {
+    top:40%;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    font-size: 16px;
+    box-shadow: inset 0px 0px 5px #000;
+
+  }    
+
+  .subtext {
+    text-align: center;
+    font-size: smaller;
+    color:white;
+    margin-top: 10px;
+}
+
+.mosaic-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .mosaic-box {
+    width: 20%;
+    height: 50%;
+    border-radius: 20px;
+    margin: 10px;
+  }
+  
+  .gradient1 {
+    background: linear-gradient(to bottom, #ff5f6d, #ffc371);
+  }
+  
+  .gradient2 {
+    background: linear-gradient(to bottom, #6a11cb, #2575fc);
+  }
+  
+  .gradient3 {
+    background: linear-gradient(to bottom, #f7ff00, #db36a4);
+  }
+  
+  .gradient4 {
+    background: linear-gradient(to bottom, #f093fb, #f5576c);
+  }
+  
+  .gradient5 {
+    background: linear-gradient(to bottom, #43e97b, #38f9d7);
+  }
+  
+  .gradient6 {
+    background: linear-gradient(to bottom, #9f00c5, #ff2e63);
+  }
+  
+  .gradient7 {
+    background: linear-gradient(to bottom, #a8ff78, #78ffd6);
+  }
+  
+  .gradient8 {
+    background: linear-gradient(to bottom, #667db6, #0082c8, #0082c8, #667db6);
+  }
+  
+  .gradient9 {
+    background: linear-gradient(to bottom, #09203f, #537895);
+  }
+  
+  .gradient10 {
+    background: linear-gradient(to bottom, #fc00ff, #00dbde);
+  }
+
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo p {
+    color: rgb(11, 237, 11);
+    font-weight: bold;
+    font-size: 25px;  
+  }
+
+  nav {
+    width: 50%;
+  }
+
+  .nav-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  iframe {
+    margin: auto;
+    margin-top: 80px;
+  }
+
+  .nav-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 330px;
+    
+  }
+
+a {
+  position: relative;
+  display: block;
+  z-index: 200;
+}
+  
+ 
+
+  .main-head {
+    text-align: center;
+    position: relative;
+    top: 330px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .main-subhead {
+    font-size: 15px;
+  }
+
+  .nav-2-item {
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: 40px;
+    background-color: rgba(12, 0, 0, 0.6);
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 25px;
+    
+  }
+
+
+  section {
+    position: relative;
+    bottom: 230px;
+  }
+
+  .experts {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    height: 100px;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+  .experts-item img {
+    height: 140px;
+    width: 200px;
+    border-radius: 15px;
+  }
+  
